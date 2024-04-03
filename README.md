@@ -19,7 +19,6 @@ Group23/
             filename_differences.txt: A text file listing 91 names
             filename_format.txt: Explains the file naming format
             patient_diagnosis.csv: Lists the diagnosis for each patient
-
         downsampled_clips/: Contains the downsampled clips
         normalized_spectograms/: Contains the normalized spectograms
         spectograms/: Contains the mel spectograms
@@ -27,7 +26,7 @@ Group23/
         data_by_cycle.csv: Preprocessing intermediate file
         data_complete.csv: Complete data file
         demographic_info.txt: Intermediate file
-
+        
     env/: Contains the virtual environment
         bin (folder)
         include (folder)
