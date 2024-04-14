@@ -2,6 +2,7 @@
 
 #### Notes to Teammates:
 Download dataset from Kaggle into this repo and rename the downloaded folder ``data/`` for the preprocessing notebook to load it properly.
+DO NOT add PyTorch packages to requirements.txt, since installations differ by hardware (freeze before installing Torch)
 
 Instructions for the environment setup (can do on terminal):
 1. run “python3 -m venv env” in your directory to create the environment
