@@ -4,6 +4,10 @@
 Download dataset from Kaggle into this repo and rename the downloaded folder ``data/`` for the preprocessing notebook to load it properly.
 DO NOT add PyTorch packages to requirements.txt, since installations differ by hardware (freeze before installing Torch)
 
+official split file obtained from official ICBHI challenge site
+reason for using bmi over height/weight is for visualization + prevent overfitting of decision tree based models
+need grayscale (1 color channel) versions of spectrograms for AST and/or any non-3-channel-pretrained models (from scratch models)
+
 Instructions for the environment setup (can do on terminal):
 1. run “python3 -m venv env” in your directory to create the environment
 2. run “source env/bin/activate” to activate it
